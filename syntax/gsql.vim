@@ -23,7 +23,7 @@ syntax  keyword    gsqlKeyword      from gen-data graph header install job list 
 syntax  keyword    gsqlKeyword      print query quote return returns reverse_edge run schema_change select
 syntax  keyword    gsqlKeyword      separator set stats temp_table to total_instance tuple typedef undirected use
 syntax  keyword    gsqlKeyword      user_defined_header using values vertex where with
-syntax match PostAccum /post-accum/
+syntax  match      PostAccum        /post-accum/
 
 " Operators
 syntax  match      gsqlOperator     "\v/"
