@@ -108,7 +108,7 @@ syntax  keyword    gsqlStatement    alter delete drop grant select
 syntax  match      gsqlStatement    "\v<(replace|create)>"
 syntax  keyword    gsqlStatement    union intersect minus add max min
 " Control flow statements
-syntax  keyword    gsqlStatement    case do else end if then when while
+syntax  keyword    gsqlStatement    case do else end if then when while limit
 
 highlight  link  gsqlComment        Comment
 highlight  link  gsqlError          Error
